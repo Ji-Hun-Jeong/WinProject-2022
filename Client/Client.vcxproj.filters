@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{5773c33e-ab7b-4528-8e61-bf4159d6b482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{1a9fe334-1c54-4b19-8ad7-1832600ad8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\00. Header">
+      <UniqueIdentifier>{ddd95cf8-135b-47ef-ab49-6c90ac81dddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. Manager">
+      <UniqueIdentifier>{02240c63-80e6-4a0c-a0f8-2b486ca0c2bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\01. Core">
+      <UniqueIdentifier>{46fa06a6-b763-4672-9a82-dabce1ada008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. Manager\TimeMgr">
+      <UniqueIdentifier>{d5eb38fc-f8c0-4e5a-b846-f4d2fef110d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. Manager\KeyMgr">
+      <UniqueIdentifier>{19fff87f-d46f-4f2f-895a-814a70ee0c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. Manager\Camera">
+      <UniqueIdentifier>{bbbda274-d3c9-4216-8ba2-9d5f1b54c273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object">
+      <UniqueIdentifier>{b57061bd-7090-4f03-b08a-d0081d17002d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object\CObject">
+      <UniqueIdentifier>{4c2cdf17-55cf-4116-bba0-8b504ff374d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. Scene">
+      <UniqueIdentifier>{617780f6-854d-4f6c-8757-c05913e3c3c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. Scene\CScene">
+      <UniqueIdentifier>{00523655-b553-4ef6-a00b-bdae2f97f64d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. Manager\SceneMgr">
+      <UniqueIdentifier>{cbf5f23b-8a75-4059-89dd-42483f2c170e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. Scene\Scene_Start">
+      <UniqueIdentifier>{30dd54b0-ca0c-48a5-b0d8-405e913025ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object\Player">
+      <UniqueIdentifier>{2cf443a8-9c0a-4846-8f35-bd582a0f1847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. Manager\PathMgr">
+      <UniqueIdentifier>{aaf919af-cfc6-4078-872d-b1e600790d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. Manager\ResMgr">
+      <UniqueIdentifier>{cc5e257c-0846-4da2-97bc-9174c33dade3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05. Resource">
+      <UniqueIdentifier>{638e261d-030e-4436-8a1a-dbb67b68bff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05. Resource\CRes">
+      <UniqueIdentifier>{808e696f-0dfc-408d-864c-00d5cee1fcf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05. Resource\Texture">
+      <UniqueIdentifier>{3de73796-fa0e-4fad-a9eb-8eb61f535ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. Scene\Scene_01">
+      <UniqueIdentifier>{8874392b-00ee-4ee1-90f3-82c76ec7050f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Component">
+      <UniqueIdentifier>{dd007e70-1751-4e5c-aaf5-dc73ce3b5b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Component\Animator">
+      <UniqueIdentifier>{e72da143-1579-498b-a8d1-20cc1c608278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Component\Animator\CAnimator">
+      <UniqueIdentifier>{215d6d48-52ff-488b-b3bb-46feb4889be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Component\Animator\Animation">
+      <UniqueIdentifier>{c64763d5-ac31-4d52-9548-83e0ef018644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Component\Collider">
+      <UniqueIdentifier>{26ba6b80-12ba-47aa-8d1d-783d488912c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Module">
+      <UniqueIdentifier>{3be3e989-1487-4181-919a-5ca45a69c11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Module\SelectGDI">
+      <UniqueIdentifier>{eb126a90-98d1-4038-8a27-40a2c92b22a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. Manager\CollisionMgr">
+      <UniqueIdentifier>{a4d6a461-cb35-4658-8330-b94db62f9d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. Manager\EventMgr">
+      <UniqueIdentifier>{32fc9072-df76-4e70-8163-b456b12eb6e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Component\RigidBody">
+      <UniqueIdentifier>{7778ee8f-5d45-4b53-af45-2d114943282a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Module\Gravity">
+      <UniqueIdentifier>{1195ddaa-a68b-4eb9-a89e-3c1a4efb6428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object\Monster">
+      <UniqueIdentifier>{2e3c95aa-fd4d-4c3f-aac7-a58c09010824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object\UI">
+      <UniqueIdentifier>{cafa892d-65b7-4fbf-8fd1-9f12796109d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04. Scene\Scene_Tool">
+      <UniqueIdentifier>{7d08ee73-3146-48d4-9288-712650b378ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object\UI\CUI">
+      <UniqueIdentifier>{af6cc2e9-2b59-4838-844b-e8d0c911b074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. Manager\UIMgr">
+      <UniqueIdentifier>{4a9c4871-bb75-47a1-b3cb-8f4554e8f22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object\Tile">
+      <UniqueIdentifier>{fa70ca31-9bc7-474f-9ba8-bd36e72b3926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object\UI\BtnUI">
+      <UniqueIdentifier>{70f1cd18-d87b-4f67-8b34-f34ed6a18f48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object\UI\PanelUI">
+      <UniqueIdentifier>{beed1fb3-0441-4616-ad7a-8a00779fd844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object\UI\PanelUI\TileUI">
+      <UniqueIdentifier>{a2363720-5462-45c2-9da5-8aaa012d590c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object\UI\BtnUI\TileBtn">
+      <UniqueIdentifier>{b3a77f7b-4e31-414e-8697-789b48803264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object\UI\BtnUI\NextBtn">
+      <UniqueIdentifier>{7e817c9a-a27e-483b-b209-ae0ce953a8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02. Manager\TileMgr">
+      <UniqueIdentifier>{e5b2b71e-d432-4aea-a73e-28f5133984cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Component\Collider\CCollider">
+      <UniqueIdentifier>{77a745a8-4372-4206-8c73-7e9db257e4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Component\Collider\RectCollider">
+      <UniqueIdentifier>{0abf1af3-a482-42f0-8967-69b1a1191cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Component\Collider\PixelCollider">
+      <UniqueIdentifier>{b52c7b10-d118-4e97-b270-a5c53f909821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Module\AI">
+      <UniqueIdentifier>{bc7c7a88-b685-4c03-a211-a8a939192092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object\Monster\CMonster">
+      <UniqueIdentifier>{399b0c1c-d6d2-4134-a71c-caf85cb7df32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object\Monster\Spoa">
+      <UniqueIdentifier>{376685fd-6c7e-4cb7-9ca6-e39c62daaf62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06. Component\Collider\RectCollider\AttackCollider">
+      <UniqueIdentifier>{f535d078-4f49-468a-99f6-94897d672d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03. Object\Weapon">
+      <UniqueIdentifier>{af145925-3b0e-4d69-9834-4f22b04e9b7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Engine\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CCore.h">
+      <Filter>Engine\01. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Engine\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeMgr.h">
+      <Filter>Engine\02. Manager\TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyMgr.h">
+      <Filter>Engine\02. Manager\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>Engine\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Engine\02. Manager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Engine\03. Object\CObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Engine\04. Scene\CScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Start.h">
+      <Filter>Engine\04. Scene\Scene_Start</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>Engine\02. Manager\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Engine\03. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPathMgr.h">
+      <Filter>Engine\02. Manager\PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CResMgr.h">
+      <Filter>Engine\02. Manager\ResMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CRes.h">
+      <Filter>Engine\05. Resource\CRes</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine\05. Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_01.h">
+      <Filter>Engine\04. Scene\Scene_01</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>Engine\06. Component\Animator\CAnimator</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Engine\06. Component\Animator\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectGDI.h">
+      <Filter>Engine\Module\SelectGDI</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionMgr.h">
+      <Filter>Engine\02. Manager\CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventMgr.h">
+      <Filter>Engine\02. Manager\EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Engine\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CRigidBody.h">
+      <Filter>Engine\06. Component\RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Tool.h">
+      <Filter>Engine\04. Scene\Scene_Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Engine\03. Object\UI\CUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelUI.h">
+      <Filter>Engine\03. Object\UI\PanelUI</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnUI.h">
+      <Filter>Engine\03. Object\UI\BtnUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIMgr.h">
+      <Filter>Engine\02. Manager\UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Engine\03. Object\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="TileUI.h">
+      <Filter>Engine\03. Object\UI\PanelUI\TileUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TileBtn.h">
+      <Filter>Engine\03. Object\UI\BtnUI\TileBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="NextBtn.h">
+      <Filter>Engine\03. Object\UI\BtnUI\NextBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileMgr.h">
+      <Filter>Engine\02. Manager\TileMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>Engine\06. Component\Collider\CCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="RectCollider.h">
+      <Filter>Engine\06. Component\Collider\RectCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelCollider.h">
+      <Filter>Engine\06. Component\Collider\PixelCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="CGravity.h">
+      <Filter>Engine\Module\Gravity</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>Engine\Module\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Engine\03. Object\Monster\CMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="Spoa.h">
+      <Filter>Engine\03. Object\Monster\Spoa</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackCollider.h">
+      <Filter>Engine\06. Component\Collider\RectCollider\AttackCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeapon.h">
+      <Filter>Engine\03. Object\Weapon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Default</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CCore.cpp">
+      <Filter>Engine\01. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeMgr.cpp">
+      <Filter>Engine\02. Manager\TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyMgr.cpp">
+      <Filter>Engine\02. Manager\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Engine\02. Manager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Engine\03. Object\CObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Engine\04. Scene\CScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Start.cpp">
+      <Filter>Engine\04. Scene\Scene_Start</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>Engine\02. Manager\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Engine\03. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPathMgr.cpp">
+      <Filter>Engine\02. Manager\PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CResMgr.cpp">
+      <Filter>Engine\02. Manager\ResMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CRes.cpp">
+      <Filter>Engine\05. Resource\CRes</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Engine\05. Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_01.cpp">
+      <Filter>Engine\04. Scene\Scene_01</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>Engine\06. Component\Animator\CAnimator</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Engine\06. Component\Animator\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectGDI.cpp">
+      <Filter>Engine\Module\SelectGDI</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionMgr.cpp">
+      <Filter>Engine\02. Manager\CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventMgr.cpp">
+      <Filter>Engine\02. Manager\EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Engine\00. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CRigidBody.cpp">
+      <Filter>Engine\06. Component\RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Tool.cpp">
+      <Filter>Engine\04. Scene\Scene_Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Engine\03. Object\UI\CUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PanelUI.cpp">
+      <Filter>Engine\03. Object\UI\PanelUI</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnUI.cpp">
+      <Filter>Engine\03. Object\UI\BtnUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIMgr.cpp">
+      <Filter>Engine\02. Manager\UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Engine\03. Object\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="TileUI.cpp">
+      <Filter>Engine\03. Object\UI\PanelUI\TileUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TileBtn.cpp">
+      <Filter>Engine\03. Object\UI\BtnUI\TileBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="NextBtn.cpp">
+      <Filter>Engine\03. Object\UI\BtnUI\NextBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileMgr.cpp">
+      <Filter>Engine\02. Manager\TileMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>Engine\06. Component\Collider\CCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="RectCollider.cpp">
+      <Filter>Engine\06. Component\Collider\RectCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelCollider.cpp">
+      <Filter>Engine\06. Component\Collider\PixelCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="CGravity.cpp">
+      <Filter>Engine\Module\Gravity</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Engine\Module\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Engine\03. Object\Monster\CMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="Spoa.cpp">
+      <Filter>Engine\03. Object\Monster\Spoa</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackCollider.cpp">
+      <Filter>Engine\06. Component\Collider\RectCollider\AttackCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeapon.cpp">
+      <Filter>Engine\03. Object\Weapon</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
